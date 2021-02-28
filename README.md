@@ -1,4 +1,4 @@
-#Tello Drone Serial Terminal with ESP8266
+# Tello Drone Serial Terminal with ESP8266
 
 Tello is a great drone for programmers, provides an SDK that allows to command the drone over UDP messages.
 When the Tello is powered, creates an access point, you need to connect to it to be able to communicate...not a good option, if you are connected to the internet ower Wifi.
