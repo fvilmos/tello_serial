@@ -1,9 +1,9 @@
 #Tello Drone Serial Terminal with ESP8266
 
-Tello is a great drone for progrmmers, provides an SDK which allows to command the drone over UDP messages.
-When the Tello is powered, creats an access point, you need to connect to it in order to be able to communicate...not a good option, if you are connected to the internet ower Wifi.
+Tello is a great drone for programmers, provides an SDK that allows to command the drone over UDP messages.
+When the Tello is powered, creates an access point, you need to connect to it to be able to communicate...not a good option, if you are connected to the internet ower Wifi.
 
-Using a small ESP8266 - ESP-01 module and a serial programmer, this can be bridged. This projects creates an UDP to serial translation / communication to the Tello.
+Using a small ESP8266 - ESP-01 module and a serial programmer, this can be bridged. This project creates a UDP to serial translation/communication to the Tello.
 
 
 <p align="center"> 
@@ -19,7 +19,7 @@ const String telloIP = "192.168.10.1";                 /*tello IP*/
 const String tello_SSID = "<TELLO SSID name>";         /*name of the tello access point*/
 const String tello_SSID_pass = "<TELLO Password>";     /*name of the tello access point*/
 ```
-2. Open Arduino Sudio, write the *.ino file, reset
+2. Open Arduino Studio, write the *.ino file, reset
 3. Open a serial terminal (HTerm, Arduino integrated one)...That's it.
 
 ## Links
