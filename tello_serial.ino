@@ -159,7 +159,7 @@ void loop()
   while (WiFi.status() != WL_CONNECTED)
   {
     delay(500);
-    //ESP.reset();
+    ESP.reset();
   }
 
     
